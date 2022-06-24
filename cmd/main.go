@@ -43,6 +43,8 @@ func main() {
 		log.Fatal("missing argument")
 	}
 
+	fmt.Println("roshi app started")
+
 	self := serverIdx + 1
 
 	client := roshiapp.NewClient(roshiServer)
